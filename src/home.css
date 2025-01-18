@@ -1,0 +1,29 @@
+*{
+    top: 0;
+}
+.product {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr); 
+    gap: 20px; 
+    padding: 20px;
+}
+
+.product1 {
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 15px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    display: inline;
+}
+
+.productimage {
+    width: 100%;
+    height: auto;
+    max-height: 200px; 
+    object-fit: contain; 
+}
+
+.productdetails {
+    margin-top: 10px;
+}

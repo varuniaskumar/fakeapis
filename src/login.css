@@ -1,0 +1,29 @@
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-image: url(./components/assets/background-image.jpg);
+    background-color: #007bff;
+  }
+
+.loginform { 
+    width: 100%;
+    max-width: 400px;
+    padding: 20px;
+    border-radius: 8px;
+    background: #ffffff;
+}
+.insideform{
+    margin-left: 25%;
+}
+label{
+    margin-left: 14%;
+}
+.loginbutton {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
